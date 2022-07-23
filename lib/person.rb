@@ -49,6 +49,13 @@ class Person
     end
 
     def work_out
-        
+        self.hygiene -= 3
+        self.happiness += 2
+        "♪ another one bites the dust ♫"
+    end
+
+    def call_friend(friend)
+        self.happiness += 3
+        friend.happiness += 3
     end
 end
